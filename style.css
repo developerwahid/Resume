@@ -20,6 +20,12 @@ p.font{
   font-family: var(--font-family);
     
 }
+}
+h2{
+  font-family: var(--font-family);
+  font-weight: 600px;
+  color: #f64f59;
+}
 html{
   scroll-behavior: smooth;
 }
