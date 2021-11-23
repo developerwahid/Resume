@@ -20,7 +20,6 @@ p.font{
   font-family: var(--font-family);
     
 }
-}
 h2{
   font-family: var(--font-family);
   font-weight: 600px;
@@ -490,15 +489,13 @@ background: linear-gradient(to top, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+/ 
     position: absolute;
     top: 0;
     left: 0;
-    z-index: 100001;
+    z-index: 101;
     width: 100%;
-    height: 100%;
+    height: 1000px;
     background-color: #fff;
     animation: anim2 1s cubic-bezier(0.19, 1, 0.22, 1) 5s both;
 }
-#wrapperload .elem img{
-    width: 40%;
-}
+
 #wrapperload .elem{
     display: flex;
     justify-content: center;
@@ -535,5 +532,10 @@ background: linear-gradient(to top, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+/ 
 }
 /*------loder------start-----End--*/
 
-
+@media (min-width: 303px)
+ {
+    #loader, #wrapperload .elem, #wrapperload{
+           max-width: 100%;
+    }
+}
 
